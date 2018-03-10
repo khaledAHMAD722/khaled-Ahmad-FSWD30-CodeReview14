@@ -284,7 +284,7 @@ require_once 'actions/db_coonect.php';
 
                 while($row3 = $result3->fetch_assoc()) {
 
-                    if ($userD == 1) {
+                    
                    
                echo '
                <div class="column">
@@ -304,7 +304,7 @@ require_once 'actions/db_coonect.php';
 								  </div>              
                ';
 
-                }
+                
  
                  }
              }else {
